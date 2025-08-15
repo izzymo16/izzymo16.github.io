@@ -1,0 +1,32 @@
+/* style to one HTML tag*/
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: teal;
+} 
+
+/*one class and apply to two elements*/
+.class {
+    background-color: lightblue;
+    /*change box model property x2*/
+    border: 2px solid teal;
+}
+
+/*one id and apply to an element*/
+#movie-review {
+    /*change box model property x2*/
+    margin: 10px;
+    /*change box model property x2*/
+    border: 2px solid lightblue;
+}
+/*use <a> and change color when hovered */
+a:hover {
+    color: olivedrab;
+}
+
+q {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
